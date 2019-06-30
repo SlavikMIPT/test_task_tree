@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 #include <unordered_map>
 
 using namespace std;
@@ -90,7 +90,7 @@ int main()
 
 	shared_ptr<Node<int>> root = (shared_ptr<Node<int>>)Tree::buildTree(centerArr, reverseArr, n);
 
-	cout << "Preorder of the constructed tree : \n";
+	cout << "Sould be { 1, 2, 4, 8, 5, 3, 6, 7 }:\n";
 	cout << root;
 
 	return 0;
