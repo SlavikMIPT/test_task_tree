@@ -90,7 +90,7 @@ int main()
 
 	shared_ptr<Node<int>> root = (shared_ptr<Node<int>>)Tree::buildTree(centerArr, reverseArr, n);
 
-	cout << "Sould be { 1, 2, 4, 8, 5, 3, 6, 7 }:\n";
+	cout << "Should be { 1, 2, 4, 8, 5, 3, 6, 7 }:\n";
 	cout << root;
 
 	return 0;
